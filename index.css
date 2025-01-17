@@ -1,0 +1,188 @@
+/* Globální styl pozadí */
+body {
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+}
+
+/* Styl pro nadpisy h2 */
+.heading2 {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Změna barvy navštívených odkazů */
+a:visited {
+    color: purple;
+}
+
+/* Zvýraznění textu kurzívou */
+em {
+    font-style: italic;
+}
+
+/* Styl tabulek */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table td {
+    height: 20px;
+}
+
+/* Formulářové prvky */
+input[type="text"], select {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Tlačítka */
+button, input[type="submit"] {
+    margin: 5px;
+}
+
+/* Globální styl pozadí */
+body {
+    background-image: url('background.jpg');
+    background-color: #f4f4f4; /* Světle šedé pozadí jako záloha */
+    background-repeat: repeat;
+    font-family: 'Arial', sans-serif;
+    margin-top: 15mm;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hlavní nadpis */
+.heading2 {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Odkazy */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+/* Formulářové prvky */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button, input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Seznam s odrážkami */
+ul {
+    list-style: disc inside;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Tabulky */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+table td {
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Rozbalovací seznam */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Obrázek */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Odstavec */
+p {
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.8;
+    color: #555;
+}
+
